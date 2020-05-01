@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet --> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container d-flex align-items-center h-100"> <!--Yaha pe container mei enclose kiya hai taaki bootstrap ki help se layout kar sakei and rows and columns mei daal sakei data ko
+    Yaha pe bootstrap mei flexbox ki application k liye class hai d-flex jo enable karti hai flexbox ko and humare paas vertical alignment k liye inline options hai but they are not much recommended while this flexbox is......
+    Yaha ek aur cheese dekho.....yaha pe container mei align-items-center lagane k baad bhi cheesei center mei nahi aaengi vertically toh fir hum aese galtiyo k samay inspect karenge browser pe ja k and pata chalega jaise html ya body hai.....container doesnt occupy 100% of the page so yeh hum appni CSS style sheet mei container k liye likhenge ya seedha bootstrap class lagaenge h-100
+    -->
+      <div class="row">
+        <header class="text-center col-12"> <!--Yaha taaki data ko row mei alag-alag distinguish kar sakei uss k liye hummne yaha pe header and niche wali cheeso ko section mei daal diya hai and yeh bootstrap class hai...text-center just like text-uppercase
+        And yaha par col-12 likha hai sath mei taaki column ka ya grid ka poora 12 spaces mill jae ek header element ko-->
+         <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+        </header>
+        <div class="buffer col-12"><!--Yaha pe yeh buffer iss liye add kiya hai taaaki hummei upar lihavat and button mei gap mill sake and woh poora ek coulumn of 12 occupy kare uss k liye col-12 bhi dala hai and buffer ka stylesheet mei height ko badhaya hai-->
+        </div>
+        <section class="text-center col-12"><!--And yaha par col-12 likha hai sath mei taaki column ka ya grid ka poora 12 spaces mill jae ek section element ko-->
+         <hr>
+         <a href="https://mailchi.mp/2b8fc9f98b65/ztmstudents"><button class="btn btn-primary btn-xl">Find out more</button></a>
+         </section>
+      </div>
+    </div>
+  </body>
+</html>
